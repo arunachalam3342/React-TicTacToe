@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 function Task04(props) {
     const [data, setData] = useState([]);
     useEffect(() => {
-        Axios.get("https://dummyjson.com/users")
+        Axios.get("http://dummyjson.com/users")
             .then((res) => {
                 if (res.status === 200) {
                     setData(res.data.users);
