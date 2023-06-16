@@ -1,9 +1,10 @@
 import './App.css';
-import Task01 from "./components/Task01"
+import Task03 from "./components/Task03"
 function App() {
+  const colors = ['Red','Yellow','Orange','Green', 'Blue', 'Violet', 'Purple','Black'];
   return (
     <div className="App">
-     <Task01/>
+     <Task03 colors={colors}/>
     </div>
   );
 }
