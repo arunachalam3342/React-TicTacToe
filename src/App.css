@@ -1,6 +1,3 @@
-body{
-  background-color: aqua;
-}
 .App {
   text-align: center;
 }
@@ -38,24 +35,4 @@ body{
   to {
     transform: rotate(360deg);
   }
-}
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Add additional styling for the card */
-}
-
-.card-image {
-  width: 100%;
-  height: auto;
-  /* Add additional styling for the image */
-}
-.list {
-  list-style-type: none; /* Remove default list styles */
-  padding: 0;
-}
-
-.list li {
-  margin-bottom: 10px; /* Add spacing between each <li> element */
 }
